@@ -32,14 +32,20 @@
 <script setup>
 import { ref } from 'vue'
 import product8 from '../assets/product8.png'
+import product9 from '../assets/product9.jpg'
+import product10 from '../assets/product10.png'
+import product11 from '../assets/product11.png'
+import product12 from '../assets/product12.jpg'
+import product13 from '../assets/product13.jpg'
+
 
 const categories = ref([
   {image:product8, title: "Men's Collection", description: "Bold & masculine scents", alt: "Men's Collection"},
-  {image:product8, title: "Women's Collection", description: "Bold & masculine scents", alt: "Men's Collection"},
-  {image:product8, title: "Men's Collection", description: "Bold & masculine scents", alt: "Men's Collection"},
-  {image:product8, title: "Men's Collection", description: "Bold & masculine scents", alt: "Men's Collection"},
-  {image:product8, title: "Men's Collection", description: "Bold & masculine scents"},
-  {image:product8, title: "Men's Collection", description: "Bold & masculine scents"}
+  {image:product10, title: "Women's Collection", description: "Powerful yet feminine scents", alt: "Women's Collection"},
+  {image:product9, title: "Men's Collection", description: "Bold & masculine scents", alt: "Men's Collection"},
+  {image:product11, title: "Men's Collection", description: "Bold & masculine scents", alt: "Men's Collection"},
+  {image:product12, title: "Men's Collection", description: "Bold & masculine scents"},
+  {image:product13, title: "Men's Collection", description: "Bold & masculine scents"}
 ])
 </script>
 
